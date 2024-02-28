@@ -34,7 +34,7 @@ def draw_cat_plot():
 
     # Draw the catplot with 'sns.catplot()'
     cat = sns.catplot(
-        data = df_cat,
+        data = df_cat,              # import the data frame
         kind = 'bar',               # Type of the graph
         col = 'cardio',             # Split by cardio, so 2 charts will be the output
         x='variable', y='total',    # X and Y values
